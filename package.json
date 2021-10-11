@@ -4,11 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
-    "postbuild": "next-sitemap"
+    "build": "next build",
+    "postbuild": "next-sitemap",
+    "export": "next export"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
+    "firebase": "^9.1.2",
     "framer-motion": "^2.7.5",
     "globby": "^11.0.0",
     "isomorphic-unfetch": "^3.0.0",
